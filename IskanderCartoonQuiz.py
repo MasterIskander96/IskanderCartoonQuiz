@@ -228,8 +228,10 @@ elif cartoon == "Tom and Jerry":
     if answer10 == "B":
         print("Right!")
         score += 1
+         print(f"You answered {score} out of 10 questions correctly!")
     else:
         print("Wrong! Correct answer:B")
+        print(f"You answered {score} out of 10 questions correctly!")
 
 
 
